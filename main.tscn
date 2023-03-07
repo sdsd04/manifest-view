@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://r24bopmqa171"]
+
+[ext_resource type="Script" path="res://Main.cs" id="1_3r1rk"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_3r1rk")
+
+[node name="Button" type="Button" parent="."]
+offset_right = 172.0
+offset_bottom = 117.0
+text = "Klicken"
+
+[node name="Button2" type="Button" parent="Button"]
+offset_left = 281.0
+offset_top = 1.0
+offset_right = 501.0
+offset_bottom = 125.0
+text = "Nicht klicken"
